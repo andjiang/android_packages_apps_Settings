@@ -111,7 +111,7 @@ class WifiDialog extends AlertDialog implements WifiConfigUiBase {
                         LinearLayout titlePanelLl = (LinearLayout) titleV
                                 .getParent();
                         if (titlePanelLl != null) {
-                            titlePanelLl.setBackgroundColor(Color.WHITE);
+                            titlePanelLl.setBackgroundColor(Color.TRANSPARENT);
                         }
                     }
                 }
@@ -128,7 +128,7 @@ class WifiDialog extends AlertDialog implements WifiConfigUiBase {
     private void setBottomPanelBackgroundColor() {
         LinearLayout bottomPanelLl = (LinearLayout) getSubmitButton().getParent();
         if (bottomPanelLl != null) {
-            bottomPanelLl.setBackgroundColor(Color.WHITE);
+            bottomPanelLl.setBackgroundColor(Color.TRANSPARENT);
         }
     }
 
